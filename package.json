@@ -1,0 +1,31 @@
+{
+  "name": "charcoal-calm",
+  "displayName": "Charcoal calm",
+  "description": "A serene dark theme for Visual Studio Code with a deep charcoal base and subtle accents designed to enhance focus and reduce eye strain during coding sessions.",
+  "publisher": "redi-cool-themes",
+  "author": {
+    "name": "Redi C",
+    "email": "redicurrii@yahoo.com"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Charcoal calm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Charcoal calm-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RediThemes/Charcoal-calm"
+  }
+}
